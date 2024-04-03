@@ -40,10 +40,17 @@
     <label for="resume">Insert your resume: </label><br>
     <input type="file" id="resume" name="resume"><br><br>
 
-    Security Question:
-    <select id="securityQuestion" name="securityQuestion">
-        <!-- Add options here -->
-    </select><br><br>
+   <label for="security_question">Security Question:</label><br>
+   <select id="security_question" name="security_question">
+    <option value="q1">What is your mother's maiden name?</option>
+    <option value="q2">What city were you born in?</option>
+    <option value="q3">What is your favorite book?</option>
+    <option value="q4">What is the name of your first pet?</option>
+   </select>
+   <br><br>
+   <label for="security_answer">Your answer:</label>
+   <input type="text" id="security_answer" name="security_answer" required>
+<br><br>
 
     
     <input type="checkbox" id="terms" name="terms">
